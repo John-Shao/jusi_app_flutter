@@ -24,7 +24,7 @@ dependencies:
   collection: '>=1.16.0'
 
   # 通过 pub 获取 client-sdk-flutter-2.6.3
-  livekit_client: 2.6.3
+  livekit_client: ^2.6.3
 
 dev_dependencies:
   flutter_test:
