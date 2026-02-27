@@ -26,12 +26,12 @@ void main() async {
   /// await LiveKitClient.initialize(
   ///  bypassVoiceProcessing: lkPlatformIsMobile(),
   /// );
-  runApp(const JusiApp());
+  runApp(const JuSiApp());
 }
 
-class JusiApp extends StatelessWidget {
+class JuSiApp extends StatelessWidget {
   //
-  const JusiApp({
+  const JuSiApp({
     super.key,
   });
 
