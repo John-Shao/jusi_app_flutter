@@ -23,14 +23,15 @@ dependencies:
   dropdown_button2: ^2.3.6
   collection: '>=1.16.0'
 
-  livekit_client:
-    path: ../client-sdk-flutter-2.6.3
+  # 通过 pub 获取 client-sdk-flutter-2.6.3
+  livekit_client: 2.6.3
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^6.0.0
 
+# The following section is specific to Flutter.
 flutter:
   uses-material-design: true
   assets:

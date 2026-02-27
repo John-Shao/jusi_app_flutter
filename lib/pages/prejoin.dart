@@ -194,7 +194,7 @@ class _PreJoinPageState extends State<PreJoinPage> {
     super.dispose();
   }
 
-  _join(BuildContext context) async {
+  Future<void> _join(BuildContext context) async {
     _busy = true;
 
     setState(() {});
